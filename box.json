@@ -16,16 +16,14 @@
         "tracking",
         "trackship"
     ],
-    "dependencies":{
-    },
+    "dependencies":{},
     "ignore":[
         "**/.*",
         "test-harness",
         "*.md",
         "server-*.json"
     ],
-    "installPaths":{
-    },
+    "installPaths":{},
     "scripts":{
         "onRelease":"publish",
         "postPublish":"!git push --follow-tags"
