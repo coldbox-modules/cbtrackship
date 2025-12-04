@@ -1,0 +1,9 @@
+{
+    "app":{
+        "cfengine":"adobe"
+    },
+    "name":"cbtrackship_adobe",
+    "scripts":{
+        "onServerInitialInstall":"cfpm install debugger"
+    }
+}

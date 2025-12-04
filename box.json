@@ -1,0 +1,33 @@
+{
+    "name":"cbtrackship",
+    "version":"1.0.0",
+    "author":"Brad Wood",
+    "slug":"cbtrackship",
+    "type":"modules",
+    "keywords":[
+        "shipping",
+        "api",
+        "fedex",
+        "ups",
+        "dayton freight",
+        "yrc freight",
+        "holland freight",
+        "xpo logistics",
+        "tracking",
+        "trackship"
+    ],
+    "dependencies":{
+    },
+    "ignore":[
+        "**/.*",
+        "test-harness",
+        "*.md",
+        "server-*.json"
+    ],
+    "installPaths":{
+    },
+    "scripts":{
+        "onRelease":"publish",
+        "postPublish":"!git push --follow-tags"
+    }
+}

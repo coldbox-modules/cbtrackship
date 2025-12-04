@@ -1,0 +1,12 @@
+{
+    "app":{
+        "cfengine":"boxlang@be"
+    },
+    "name":"cbtrackship_boxlang",
+    "scripts":{
+        "onServerInitialInstall":"install bx-compat-cfml"
+    },
+    "jvm":{
+        "JavaVersion":"openjdk21"
+    }
+}
