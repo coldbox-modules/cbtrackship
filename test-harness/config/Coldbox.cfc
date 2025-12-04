@@ -69,7 +69,8 @@
 
 		variables.moduleSettings = {
 			cbtrackship = {
-				sdf             : getSystemSetting( "sdf", "" )
+				apiKey= getSystemSetting( "API_KEY", "" ),
+				appName= getSystemSetting( "APP_NAME", "" )
 			}
 		};
 

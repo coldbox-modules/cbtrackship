@@ -30,11 +30,12 @@ component{
 	this.mappings[ "/moduleroot" ] = moduleRootPath;
 	this.mappings[ "/#request.MODULE_NAME#" ] = moduleRootPath & "#request.MODULE_NAME#";
 	
+	/* 
  	this.javaSettings = {
 		loadPaths = directorylist( moduleRootPath & '#request.MODULE_NAME#/lib', true, 'array', '*jar' ),
 		loadColdFusionClassPath = true,
 		reloadOnChange = true
-	};
+	}; */
 	
 
 	function onRequestStart() {

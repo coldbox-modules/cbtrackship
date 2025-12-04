@@ -12,7 +12,9 @@ component {
 	 */
 	function configure(){
 		variables.settings = {
-		
+			apiBaseUrl = "https://api.trackship.com/v1",
+			apiKey     = "",
+			appName	= ""
 		}
 	}
 
