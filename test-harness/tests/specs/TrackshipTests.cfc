@@ -79,6 +79,17 @@
 
 				//	writedump( result );
 				});
+
+			
+				it( 'can get providers', () => {
+					var trackshipClient = getLib();
+					var result = trackshipClient.getAllProviders();
+					expect( result ).toBeStruct();
+
+					//writedump( result );
+				});
+
+				
 				
 
 		});

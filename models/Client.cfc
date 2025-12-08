@@ -105,6 +105,13 @@ component {
 	}
 
 	/**
+	 * Get all providers
+	 */
+	function getAllProviders() {
+		return hitAPI( "shipping_carriers/supported", "get" );
+	}
+
+	/**
 	 * Hit the TrackShip API
 	 * 
 	 * @endpoint The API endpoint to hit

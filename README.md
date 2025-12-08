@@ -161,6 +161,24 @@ var result = trackshipClient.deleteTracking(
 
 ---
 
+### getAllProviders()
+
+Retrieve a list of all supported shipping carriers/providers from TrackShip.
+
+```js
+var result = trackshipClient.getAllProviders();
+```
+
+#### Parameters
+
+This method takes no parameters.
+
+#### Response
+
+Returns an array of supported shipping carriers with their details.
+
+---
+
 ## Supported Carriers
 
 TrackShip supports numerous carriers worldwide. Some common provider codes include:
